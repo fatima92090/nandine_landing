@@ -1,0 +1,281 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	header{
+		min-height: 550px;
+	}
+	.img-fluid {
+		max-width: 80%;
+	}
+
+	.cust_nav ul{
+		padding-left: 50px;
+		font-size: 13px;
+	}
+	.header-text{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.header-text h2 {
+		font-size: 28px;
+	}
+	.header-text p {
+		padding-top: 31px;
+	}
+	.header-text p, .header-btn{
+		font-size: 14px;
+	}
+	.header-btn{
+		margin-top: 10px;
+	}
+	/*aboutus*/
+	.cust-img{
+		display: block;
+		max-width: 100% !important;
+		height: auto;
+	}
+	.aboutus h2, .services h2, .skills h2, .protfolio h2, .teaminfo h2, .blogs h2, .contactus h2 {
+		font-size: 26px;
+		margin-bottom: 0;
+	}
+	.text-area{
+		margin-top: 30px;
+		padding: 0 16px;
+	}
+	.about-details h3 {
+		font-size: 16px;
+	}
+	.aboutus-text{
+		padding-right: 0px;
+		padding-top: 18px;
+	}
+	.resume-btn {
+		font-size: 15px;
+	}
+	/*know more*/
+	.know-more {
+		min-height: 330px;
+	}
+	.knowmore-info h2 {
+		font-size: 19px;
+		margin-bottom: 20px;
+	}
+	.knowmore-info a {
+		height: 53px;
+	}
+	.knowmore-info a i {
+		font-size: 28px;
+	}
+	/*services*/
+	.service-box i{
+		font-size: 34px;
+	}
+	.service-box h3 {
+		font-size: 23px;
+	}
+
+	/*skills*/
+	.about-skill h3, .skill-goodin h3  {
+		font-size: 21px;
+	}
+	.skill-iteam h6 {
+		font-size: 15px;
+	}
+	/*happyclients*/
+	.happyclients-box{
+		margin-bottom: 20px;
+	}
+	.happyclients-box img {
+		margin-bottom: 0px;
+	}
+	.happyclients-count h3 {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	/*protfolio*/
+	.portfolio_menu button {
+		font-size: 12px;
+		padding: 0 3px;
+	}
+	/*team*/
+	.team-overlayicon h3, .team-overlayicon .social {
+		font-size: 18px;
+	}
+	.team-overlayicon {
+		top: 80%;    
+		height: 20%;
+	}
+	.team-overlayicon h3 {
+		top: 35%;
+	}
+	.team-overlayicon .social {
+		top: 65%;
+	}
+
+	/*testimonial*/
+	.testimonial-content {
+		padding: 0 5%;
+	}
+	.testimonial-content h3 {
+		font-size: 17px;
+	}
+	.testimonial-content p {
+		font-size: 13px;
+		line-height: 1.6;
+	}
+	/*blogs*/
+	.padding-top{
+		padding-top: 3rem !important;
+	}
+	.custcard_body h5{
+		font-size: 17px;
+	}
+	.date {
+		font-size: 13px;
+	}
+	.card-text {
+		font-size: 13px;
+	}
+		/*contactus*/
+	.form-content {
+		padding: 0 3%;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	header{
+		min-height: 650px;
+	}
+	.img-fluid {
+		max-width: 94%;
+	}
+	.cust_nav ul{
+		padding-left: 50px;
+	}
+	.header-text h2 {
+		font-size: 35px;
+	}
+	.header-text{
+		padding-top: 140px;
+		padding-bottom: 140px;
+	}
+
+	/*aboutus*/
+	.aboutus h2,.services h2, .skills h2, .protfolio h2, .teaminfo h2, .blogs h2, .contactus h2 {
+		font-size: 26px;
+		margin-bottom: 0;
+	}
+
+	.text-area{
+		margin-top: 48px;
+		padding: 0px 18px;
+	}
+	.about-details h3 {
+		font-size: 22px;
+	}
+	.aboutus-text{
+		padding-right: 0px;
+	}
+	.resume-btn {
+		font-size: 16px;
+	}
+	/*know more*/
+	.knowmore-info h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.know-more {
+		min-height: 350px;
+	}
+	/*services*/
+	.service-box i{
+		font-size: 35px;
+	}
+	/*happyclients*/
+	.happyclients-box img {
+		margin-bottom: 0px;
+	}
+	.happyclients-count h3 {
+		font-size: 22px;
+		margin-top: 0px;
+	}
+		/*contactus*/
+	.form-content {
+		padding: 0 0%;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	header{
+		min-height: 650px;
+	}
+
+	.cust_nav ul{
+		padding-left: 50px;
+	}
+	.header-text{
+		padding-top: 140px;
+		padding-bottom: 140px;
+	}
+
+	.header-text h2 {
+		font-size: 40px;
+	}
+
+	/*aboutus*/
+	.aboutus h2, .services h2, .skills h2, .protfolio h2 {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+
+	
+	.about-details h3, .happyclients-count h3 {
+		font-size: 20px;
+	}
+	.aboutus-text{
+		padding-right: 0px;
+		padding-top: 10px;
+	}
+	.aboutus-text p {
+		margin-bottom: 0;
+		font-size: 12px;
+	}
+	.aboutus-text p:first-child{
+		margin-bottom: 6px;
+	}
+	.resume-btn {
+		font-size: 13px;
+	}
+	/*services*/
+	.service-box h3{
+		font-size: 22px;
+	}
+
+	/*contactus*/
+	.form-content {
+		padding: 0 0%;
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1499.98px){
+
+
+}
+
+/* Extra large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px){
+}
+
+@media only screen and (max-width:990px){.img-box{margin-bottom:30px}
